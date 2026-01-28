@@ -110,17 +110,21 @@ const HeroSection = () => {
             </Button>
 
             <Button
-              size="lg"
-              variant="outline"
-              className="group border-accent/50 hover:border-accent hover:bg-accent/10 transition-all duration-300"
-            >
-              <a
-                href="/muhammed shadly m.pdf"
-                download
+                  size="lg"
+                  variant="outline"
+                   asChild
+                   className="group border-accent/50 hover:border-accent hover:bg-accent/10 transition-all duration-300"
+        >
+           <a
+             href="/shadly-protofolio/muhammed shadly m.pdf"
+             download
+             className="flex items-center"
+       >
               <Download className="w-4 h-4 mr-2" />
-              Download CV
-              </a>
-            </Button>
+               Download CV
+            </a>
+          </Button>
+
           </motion.div>
 
           {/* Scroll Indicator */}
