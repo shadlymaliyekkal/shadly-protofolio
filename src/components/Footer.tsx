@@ -11,12 +11,12 @@ const Footer = () => {
     },
     {
       icon: Github,
-      href: "https://github.com/shadlym",
+      href: "https://github.com/shadlymaliyekkal/",
       label: "GitHub"
     },
     {
       icon: Mail,
-      href: "mailto:shadlymuhammad@gmail.com",
+      href: "mailto:shadlymaliyekkalofficial80@gmail.com",
       label: "Email"
     }
   ];
