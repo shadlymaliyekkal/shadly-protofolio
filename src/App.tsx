@@ -13,8 +13,6 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-
-      {/* 👇 IMPORTANT FOR GITHUB PAGES */}
       <BrowserRouter basename="/shadly-protofolio">
         <Routes>
           <Route path="/" element={<Index />} />
