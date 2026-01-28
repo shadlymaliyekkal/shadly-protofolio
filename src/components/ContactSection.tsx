@@ -17,14 +17,14 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "shadlymuhammad@gmail.com",
-      href: "mailto:shadlymuhammad@gmail.com"
+      value: "shadlymaliyekkalofficial80@gmail.com.com",
+      href: "mailto:shadlymaliyekkalofficial80@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXXXXXXXXX",
-      href: "tel:+91XXXXXXXXXX"
+      value: "+91 8075325753",
+      href: "tel:+918075325753"
     },
     {
       icon: Linkedin,
