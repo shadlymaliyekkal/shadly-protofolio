@@ -115,7 +115,7 @@ const HeroSection = () => {
               className="group border-accent/50 hover:border-accent hover:bg-accent/10 transition-all duration-300"
             >
               <a
-                href="/cv/Muhammad_Shady_CV.pdf"
+                href="/muhammed shadly m.pdf"
                 download
               <Download className="w-4 h-4 mr-2" />
               Download CV
