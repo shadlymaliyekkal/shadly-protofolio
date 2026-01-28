@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Mail, Linkedin, Download, Shield, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import profilePhoto from '@/assets/profile-photo.jpeg';
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -30,9 +31,11 @@ const HeroSection = () => {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary via-cyber-cyan to-accent rounded-full blur-md opacity-75 group-hover:opacity-100 transition-opacity duration-500 animate-pulse-glow" />
               <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full overflow-hidden border-2 border-primary/50 group-hover:border-primary transition-all duration-300 group-hover:scale-105">
-                <div className="w-full h-full bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center">
-                  <Shield className="w-16 h-16 md:w-20 md:h-20 text-primary" />
-                </div>
+                <img 
+                  src={profilePhoto} 
+                  alt="Muhammad Shadly M" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>
