@@ -11,21 +11,21 @@ const CertificationsSection = () => {
     {
       title: "Certified Penetration Tester (CPT)",
       issuer: "CC Cyber Campus, Calicut",
-      year: "2025",
+      year: "2026",
       icon: ShieldCheck,
       gradient: "from-primary to-cyber-cyan"
     },
     {
       title: "Ethical Hacker",
       issuer: "Cisco",
-      year: "2024",
+      year: "2025",
       icon: Award,
       gradient: "from-cyber-cyan to-accent"
     },
     {
       title: "Cyber Threat Management",
       issuer: "Cisco",
-      year: "2024",
+      year: "2025",
       icon: Award,
       gradient: "from-accent to-cyber-green"
     }
@@ -33,13 +33,13 @@ const CertificationsSection = () => {
 
   const education = [
     {
-      degree: "Certified Penetration Tester (CPT)",
+      diploma: "Certified Penetration Tester (CPT)",
       institution: "CC Cyber Campus, Calicut",
       year: "2025",
       status: "Completed"
     },
     {
-      degree: "Higher Secondary Education",
+      Higher: "Higher Secondary Education",
       institution: "DUHSS Panakkad",
       year: "2024",
       status: "Completed"
